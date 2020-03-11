@@ -15,6 +15,9 @@ class TestController extends Controller
 
         $dataCollection = collect($data);
 
+        //TODO: Convert to Eloquent model
+
+
         return view('welcome', ['data'=>$dataCollection]);
     }
 }

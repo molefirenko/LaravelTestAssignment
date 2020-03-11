@@ -91,8 +91,8 @@
 
                 <table rules="all" cellpadding="5px">
                     <tr>
-                        <td>age</td>
-                        <td>eyeColor</td>
+                        <td>@sortablelink('age', 'Age')</td>
+                        <td>@sortablelink('eyeColor', 'Eye color')</td>
                         <td>name</td>
                         <td>gender</td>
                         <td>company</td>
